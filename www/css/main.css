@@ -1,7 +1,10 @@
 * { padding: 0; margin: 0; }
 body{}
 .header{
-    height: 50px;
+    height: 78px;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    width: 100%;
 
 }
 .grad_bg{
