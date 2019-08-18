@@ -17,7 +17,42 @@
 </div>
 
 <div class="container bottom_p">
-    <div class="container clicker_stone animated bounce"></div>
+    <div class="container clicker_stone animated bounce">
+        <div class="circle_btn"><div class="hummer"></div></div>
+
+    </div>
 </div>
+<script>
+    $(function () {
+        var animationEnd = (function(el) {
+            var animations = {
+                animation: 'animationend',
+                OAnimation: 'oAnimationEnd',
+                MozAnimation: 'mozAnimationEnd',
+                WebkitAnimation: 'webkitAnimationEnd',
+            };
+
+            for (var t in animations) {
+                if (el.style[t] !== undefined) {
+                    return animations[t];
+                }
+            }
+        })(document.createElement('div'));
+
+        $('.clicker_stone').one(animationEnd, function () {
+            $('.circle_btn').show();
+            $('.circle_btn').addClass('bounceInDown animated');
+        });
+
+        $('.circle_btn').one(animationEnd, function () {
+            $('.hummer').show();
+            $('.hummer').addClass('bounceInDown animated');
+        });
+
+
+    });
+
+
+</script>
 </body>
 </html>
