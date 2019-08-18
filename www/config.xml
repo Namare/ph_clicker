@@ -17,7 +17,7 @@
     <preference name='phonegap-version' value='cli-9.0.0' />
     <preference name='pgb-builder-version' value='1' />
     <platform name="android" >
-        <preference name="android-targetSdkVersion" value="28"/>
+
         <preference name="android-installLocation" value="auto"/>
         <preference name="android-signed" value="true"/>
         <preference name="Fullscreen" value="true"/>
