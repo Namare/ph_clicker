@@ -7,10 +7,7 @@ body{}
 
 }
 .grad_bg{
-    background-image: url("../img/bg_grad.jpg");
-    background-size: 100%;
-    background-size: 7px;
-    background-repeat: repeat-x;
+    background-image: url("../img/bg_grad.png");
 }
 
 .fl1{
@@ -43,14 +40,16 @@ body{}
 }
 .clicker_stone{
     position: absolute;
-    top:-114px;
-    width: 150px;
-    height: 175px;
+    top: -53%;
+    width: 38%;
+    height: 108%;
+    margin-left: 5%;
     background-image: url(../img/click_stone.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .bottom_p{
-    height: 125px;
+    height: 20%;
     position: absolute;
     bottom: 0px;
     width: 100%;
