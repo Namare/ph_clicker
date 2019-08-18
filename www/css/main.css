@@ -1,9 +1,8 @@
 * { padding: 0; margin: 0; }
 body{}
 .header{
-    height: 78px;
-    background-image: url("../img/header.png");
-    background-size: cover;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
 
 }
@@ -39,9 +38,22 @@ body{}
    margin-top: 50px;
 }
 .container{
-
-
     display: flex;
     justify-content:center;
 }
-
+.clicker_stone{
+    position: absolute;
+    top:-114px;
+    width: 150px;
+    height: 175px;
+    background-image: url(../img/click_stone.png);
+    background-size: cover;
+}
+.bottom_p{
+    height: 125px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-image: url(../img/panel_b.png);
+    background-size: cover;
+}
