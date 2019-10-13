@@ -12,12 +12,13 @@ div.main{
     position: absolute;
     width: 100%;
     top: 0px;
+    height: 49%;
 
 }
 .bottom_stone{
     position: absolute;
     width: 100%;
     bottom: 0px;
-    max-height: 50%;
+    max-height: 53%;
 
 }
