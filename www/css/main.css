@@ -46,8 +46,9 @@ div.main{
 
 .miner_list{
     width: call(100%- 20px);
-    height: 70px;
+    height: 60px;
     margin: 10px;
     background-color: #ffffff;
+    border-radius: 5px;
 
 }
